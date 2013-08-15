@@ -4,11 +4,11 @@
   "dependencies": {
     "visionmedia/page.js": "*"
   },
-  "local": ["social-buttons"],
+  "local": [],
   "scripts": [ "boot.js" ],
   "styles": ["index.styl"],
   "images": [
-    "images/bg.jpg",
+    "images/bg.jpg"
   ],
   "main": "boot.js",
   "license": "MIT"
