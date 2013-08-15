@@ -23,6 +23,7 @@
   "bugs": {
     "url": "https://github.com/gravityonmars/nodejs-boilerplate/issues"
   },
+  "engines": {"node": "0.10.15"},
   "dependencies": {
     "passport": "~0.1.17",
     "express": "~3.3.5",
