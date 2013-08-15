@@ -1,6 +1,6 @@
 {
   "port": 3000,
-  "mongoUrl": "mongodb://localhost/nodejs-boilerplate",
+  "mongoUrl": "mongodb://localhost/nodejs-starter",
   "auth": {
     "facebook": {
       "clientID" : "FBClientId",
