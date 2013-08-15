@@ -8,7 +8,7 @@ components:
 	@component install
 
 clean:
-	@rm -rf components node_modules
+	@rm -rf components node_modules public
 
 .PHONY: run clean
 
