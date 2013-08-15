@@ -1,11 +1,16 @@
 !!! 5
 html
   head
-    title NodeJS Boileplate
+    title NodeJS Starter
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css")
     link(rel='stylesheet', href='/app.css')
   body
     header
+      h1 Something
     #content
+    script(src="//code.jquery.com/jquery.js")
+    script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js")
     script(src='/app.js')
     script.
       require('boot')

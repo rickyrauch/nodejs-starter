@@ -1,4 +1,5 @@
 # Node.js Starter
+The idea of this project is to enable developers to have a starting point with the tools always used in a web project. This project is the result of the best development practices.
 
 ## Requirements
 * [node.js v0.10.x](http://nodejs.org/download/)
@@ -12,6 +13,20 @@ Run from your terminal:
     git clone git@github.com:gravityonmars/nodejs-boilerplate.git
     cd nodejs-starter
     make 
+
+## Related modules
+* [express]() 
+* [Jade]()
+* [stylus]()
+* [Bootstrap]()
+* [passport-facebook]()
+* [passport-twitter]()
+* [passport]()
+* [mongoose]()
+* [connect-mongo]()
+* [component]()
+* [string-to-js]()
+
 
 ## Test
 

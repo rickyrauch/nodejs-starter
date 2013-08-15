@@ -6,6 +6,10 @@
   },
   "local": ["social-buttons"],
   "scripts": [ "boot.js" ],
+  "styles": ["index.styl"],
+  "images": [
+    "images/bg.jpg",
+  ],
   "main": "boot.js",
   "license": "MIT"
 }
