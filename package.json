@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "0.0.1",
+  "description": "Simple demo app for beginners. Node.js, express, mongoose, passport.js, component.io and jade.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gravityonmars/nodejs-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "passport",
+    "component",
+    "jade"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gravityonmars/nodejs-boilerplate/issues"
+  },
+  "dependencies": {
+    "passport": "~0.1.17",
+    "express": "~3.3.5",
+    "jade": "~0.34.1",
+    "passport-facebook": "~0.1.5",
+    "passport-twitter": "~0.1.5",
+    "mongoose": "~3.6.17",
+    "connect-mongo": "~0.3.3",
+    "component-builder": "~0.8.3",
+    "string-to-js": "0.0.1"
+  }
+}

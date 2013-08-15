@@ -1,0 +1,7 @@
+{
+  "name": "auth",
+  "description": "Auth component",
+  "dependencies": {
+    "visionmedia/page.js": "*"
+  }
+}

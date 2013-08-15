@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "0.0.1",
+  "description": "Simple demo app for beginners. Node.js, express, mongoose, passport.js, component.io and jade.",
+  "dependencies": {},
+  "paths": ["lib"],
+  "local": ["boot"],
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongoose",
+    "passport",
+    "component",
+    "jade"
+  ],
+  "license": "MIT"
+}

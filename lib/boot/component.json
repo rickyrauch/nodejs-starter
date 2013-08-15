@@ -1,0 +1,11 @@
+{
+  "name": "boot",
+  "description": "Application Booting component.",
+  "dependencies": {
+    "visionmedia/page.js": "*"
+  },
+  "local": ["social-buttons"],
+  "scripts": [ "boot.js" ],
+  "main": "boot.js",
+  "license": "MIT"
+}
