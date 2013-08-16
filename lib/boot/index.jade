@@ -7,8 +7,28 @@ html
     link(rel='stylesheet', href='/app.css')
   body
     header
-      h1 Something
-    #content
+      h5 
+        a(target="_blank", href="http://twitter.com/gravityonmars") Ricardo Rauch
+        span  & 
+        a(target="_blank", href="http://twitter.com/cristiandouce") Cristian Douce
+        span  presents:
+      
+    section.site-content
+      h1 NodeJS Starter
+      p.description Simple setup using the best practices. Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap. 
+      p.social-login
+        a(href="/auth/twitter").btn.btn-primary  login with Twitter
+
+        a(href="/auth/facebook").btn.btn-primary  login with Facebook
+
+      p  
+        a(href="http://github.com/gravityonmars/nodejs-starter").btn.btn-lg.btn-get-started Clone the project
+    
+      .twitter 
+        a.twitter-share-button(href='https://twitter.com/share', data-url='http://github.com/gravityonmars/nodejs-starter', data-text='NodeJS Starter - Simple setup including express, mongoose, passport.js, component.io and jade.', data-via='gravityonmars', data-size='large', data-related='cristiandouce', data-count='none') Tweet
+        script
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
     script(src="//code.jquery.com/jquery.js")
     script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js")
     script(src='/app.js')
