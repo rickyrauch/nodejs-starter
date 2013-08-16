@@ -2,7 +2,9 @@
   "name": "nodejs-starter",
   "version": "0.0.1",
   "description": "Simple demo app for beginners. Node.js, express, mongoose, passport.js, component.io and jade.",
-  "dependencies": {},
+  "dependencies": {
+    "gravityonmars-components/bootstrap-stylus": "*"
+  },
   "paths": [
     "lib"
   ],
