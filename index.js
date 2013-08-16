@@ -20,6 +20,14 @@ require('./config')(app);
 require('models')(app);
 
 /**
+ * Load auth routes and
+ * login strategies with
+ * passport
+ */
+
+require('auth')(app);
+
+/**
  * Application Booting
  */
 
