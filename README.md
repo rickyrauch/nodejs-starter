@@ -1,5 +1,6 @@
 # Node.js Starter
-The idea of this project is to enable developers to have a starting point with the tools always used in a web project. This project is the result of the best development practices.
+Simple project setup using industry's best practices and modules. 
+Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap.
 
 ## Requirements
 * [node.js v0.10.x](http://nodejs.org/download/)
