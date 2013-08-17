@@ -33,6 +33,9 @@ Run from your terminal:
 
     npm test
 
+## Projects using it
+* [DemocracyOs](http://github.com/democracyos/app)    
+
 ## Contributors
 * [Cristian Douce](http://twitter.com/cristiandouce)
 * [Ricardo Rauch](http://twitter.com/gravityonmars)
