@@ -1,4 +1,4 @@
-run: node_modules components
+run: node_modules components build
 	@NODE_PATH=lib node index.js
 
 node_modules:
@@ -7,6 +7,9 @@ node_modules:
 components:
 	@component install
 
+build:
+	@./bin/njs-build
+	
 clean:
 	@rm -rf components node_modules public
 

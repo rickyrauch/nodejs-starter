@@ -37,6 +37,7 @@
     "connect-mongo": "~0.3.3",
     "component-builder": "~0.9.0",
     "string-to-js": "0.0.1",
-    "component-stylus-plugin": "~0.2.3"
+    "component-stylus-plugin": "~0.2.3",
+    "commander": "~2.0.0"
   }
 }

@@ -43,7 +43,7 @@ module.exports = function configuration (app) {
      * Add build middleware
      */
 
-    app.use(require('build'));
+    app.use(require('build').middleware);
   });
 
   /**
