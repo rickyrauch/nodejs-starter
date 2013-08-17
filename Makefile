@@ -9,7 +9,7 @@ components:
 
 build:
 	@./bin/njs-build
-	
+
 clean:
 	@rm -rf components node_modules public
 

@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-boilerplate",
+  "name": "nodejs-starter",
   "version": "0.0.1",
   "description": "Simple demo app for beginners. Node.js, express, mongoose, passport.js, component.io and jade.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gravityonmars/nodejs-boilerplate.git"
+    "url": "git://github.com/gravityonmars/nodejs-starter.git"
   },
   "keywords": [
     "nodejs",
@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gravityonmars/nodejs-boilerplate/issues"
+    "url": "https://github.com/gravityonmars/nodejs-starter/issues"
   },
   "engines": {
     "node": "0.10.15",

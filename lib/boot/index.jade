@@ -3,7 +3,6 @@ html
   head
     title NodeJS Starter
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
-    link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css")
     link(rel='stylesheet', href='/app.css')
   body
     header
@@ -15,10 +14,10 @@ html
       
     section.site-content
       h1 NodeJS Starter
-      p.description Simple setup using the best practices. Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap. 
+      p.description Simple project setup using industry's best practices and modules. Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap. 
 
-      h4 Run from your terminal:
-      pre 
+      pre.code-box
+        h5 Run from your terminal:
         p 
           code git clone git@github.com:gravityonmars/nodejs-boilerplate.git
         p 
@@ -26,7 +25,7 @@ html
         p 
           code make 
 
-      h4 We included passport.js:
+      h4 The authentication system is included:
       p.social-login
         a(href="/auth/twitter").btn.btn-primary  login with Twitter
 
@@ -42,7 +41,7 @@ html
           !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
 
-        iframe(src='http://ghbtns.com/github-btn.html?user=gravitonmars&repo=nodejs-starter&type=fork&size=large', allowtransparency='true', frameborder='0', scrolling='0', width='170', height='30')
+        iframe(src='http://ghbtns.com/github-btn.html?user=gravitonmars&repo=nodejs-starter&type=watch&count=true&size=large', allowtransparency='true', frameborder='0', scrolling='0', width='100', height='30')
 
     script(src="//code.jquery.com/jquery.js")
     script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js")
