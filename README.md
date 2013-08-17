@@ -15,9 +15,9 @@ Run from your terminal:
     make 
 
 ## Related modules
-* [express]() 
-* [Jade]()
-* [stylus]()
+* [express](https://github.com/visionmedia/express)
+* [Jade](https://github.com/visionmedia/jade)
+* [stylus](https://github.com/visionmedia/stylus)
 * [Bootstrap]()
 * [passport-facebook]()
 * [passport-twitter]()
@@ -33,7 +33,7 @@ Run from your terminal:
     npm test
 
 ## Projects using it
-* [DemocracyOs](http://github.com/democracyos/app)    
+* [DemocracyOS](http://github.com/DemocracyOS/app)
 
 ## Contributors
 * [Cristian Douce](http://twitter.com/cristiandouce)
