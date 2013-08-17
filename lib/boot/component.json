@@ -2,6 +2,7 @@
   "name": "boot",
   "description": "Application Booting component.",
   "dependencies": {
+    "gravityonmars-components/bootstrap-stylus": "*",
     "visionmedia/page.js": "*"
   },
   "local": [],
