@@ -3,9 +3,8 @@ Simple project setup using industry's best practices and modules.
 Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap.
 
 ## Requirements
-* [node.js v0.10.x](http://nodejs.org/download/)
-* [npm 1.1.x](http://npm.org)
-* [MongoDB](http://docs.mongodb.org/manual/installation/)
+* [NodeJS & NPM](http://nodejs.org/download)
+* [MongoDB](http://www.mongodb.org/downloads)
 
 ## Installation
 
