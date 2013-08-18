@@ -198,6 +198,7 @@ module.exports = function configuration (app) {
 function merge (a, b){
   for (var key in b) {
     if (has.call(b, key) && b[key] != null) {
+      if (!a) a = {};
       if ('object' === typeof b[key]) {
         a[key] = merge(a[key], b[key]);
       } else {

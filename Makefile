@@ -8,7 +8,7 @@ components:
 	@component install
 
 build:
-	@./bin/njs-build
+	@node ./bin/njs-build
 
 clean:
 	@rm -rf components node_modules public

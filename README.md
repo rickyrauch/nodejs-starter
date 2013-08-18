@@ -3,9 +3,8 @@ Simple project setup using industry's best practices and modules.
 Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap.
 
 ## Requirements
-* [node.js v0.10.x](http://nodejs.org/download/)
-* [npm 1.1.x](http://npm.org)
-* [MongoDB](http://docs.mongodb.org/manual/installation/)
+* [NodeJS & NPM](http://nodejs.org/download)
+* [MongoDB](http://www.mongodb.org/downloads)
 
 ## Installation
 
@@ -16,9 +15,9 @@ Run from your terminal:
     make 
 
 ## Related modules
-* [express]() 
-* [Jade]()
-* [stylus]()
+* [express](https://github.com/visionmedia/express)
+* [Jade](https://github.com/visionmedia/jade)
+* [stylus](https://github.com/visionmedia/stylus)
 * [Bootstrap]()
 * [passport-facebook]()
 * [passport-twitter]()
@@ -34,7 +33,7 @@ Run from your terminal:
     npm test
 
 ## Projects using it
-* [DemocracyOs](http://github.com/democracyos/app)    
+* [DemocracyOS](http://github.com/DemocracyOS/app)
 
 ## Contributors
 * [Cristian Douce](http://twitter.com/cristiandouce)
