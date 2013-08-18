@@ -11,7 +11,7 @@ Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstra
 
 Run from your terminal:
 
-    git clone git@github.com:gravityonmars/nodejs-boilerplate.git
+    git clone git@github.com:gravityonmars/nodejs-starter.git
     cd nodejs-starter
     make 
 
