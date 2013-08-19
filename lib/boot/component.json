@@ -5,7 +5,10 @@
     "gravityonmars-components/bootstrap-stylus": "*",
     "visionmedia/page.js": "*"
   },
-  "local": [],
+  "local": [
+    "homepage",
+    "user"
+  ],
   "scripts": [ "boot.js" ],
   "styles": ["index.styl"],
   "images": [
