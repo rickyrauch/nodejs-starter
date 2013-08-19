@@ -28,6 +28,13 @@ require('models')(app);
 require('auth')(app);
 
 /**
+ * Load user routes
+ * API service
+ */
+
+app.use("/api", require('user'));
+
+/**
  * Application Booting
  */
 
