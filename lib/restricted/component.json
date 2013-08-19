@@ -1,0 +1,14 @@
+{
+  "name": "restricted",
+  "description": "Application's Area 51",
+  "dependencies": {
+    "component/domify": "*",
+    "visionmedia/page.js": "*",
+    "visionmedia/jade": "*",
+    "yields/empty": "*"
+  },
+  "scripts": [ "restricted.js" ],
+  "local": [ "user" ],
+  "templates": [ "area51.jade" ],
+  "main": "restricted.js"
+}
