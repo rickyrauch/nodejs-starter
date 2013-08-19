@@ -1,0 +1,11 @@
+{
+  "name": "user",
+  "description": "User component.",
+  "dependencies": {
+    "visionmedia/page.js": "*"
+  },
+  "local": ["user-model"],
+  "scripts": [ "user.js" ],
+  "main": "user.js",
+  "license": "MIT"
+}
