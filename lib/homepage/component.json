@@ -4,7 +4,8 @@
   "dependencies": {
     "component/domify": "*",
     "visionmedia/page.js": "*",
-    "visionmedia/jade": "*"
+    "visionmedia/jade": "*",
+    "yields/empty": "*"
   },
   "scripts": ["homepage.js"],
   "templates": [ "splash.jade" ],
