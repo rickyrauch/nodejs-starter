@@ -1,0 +1,12 @@
+{
+  "name": "user-model",
+  "description": "User model component.",
+  "dependencies": {
+    "component/emitter": "*",
+    "visionmedia/superagent": "*"
+  },
+  "local": [],
+  "scripts": [ "model.js" ],
+  "main": "model.js",
+  "license": "MIT"
+}
