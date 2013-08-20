@@ -5,7 +5,7 @@ node_modules:
 	@npm install
 
 components:
-	@component install
+	@node ./bin/njs-install
 
 build:
 	@node ./bin/njs-build
@@ -13,5 +13,5 @@ build:
 clean:
 	@rm -rf components node_modules public
 
-.PHONY: run clean
+.PHONY: run build clean
 
