@@ -18,6 +18,8 @@ Run from your terminal:
     cd nodejs-starter
     make 
 
+*Note:* edit your config/development.json with your Facebook & Twitter keys. [Instructions here](https://cloudup.com/c41pFaKcMBu)
+
 ## Related modules
 * [express](https://github.com/visionmedia/express) — web application framework for node
 * [Jade](https://github.com/visionmedia/jade) — Template engine

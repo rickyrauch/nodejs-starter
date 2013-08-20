@@ -5,12 +5,12 @@
     "facebook": {
       "clientID" : "FBClientId",
       "clientSecret": "FBClientSecret",
-      "callback": "http://localhost:3005/auth/facebook/callback"
+      "callback": "http://localhost:3000/auth/facebook/callback"
     },
     "twitter": {
       "consumerKey" : "TwitterConsumerKey",
       "consumerSecret": "TwitterConsumerSecret",
-      "callback": "http://127.0.0.1:3005/auth/twitter/callback"
+      "callback": "http://127.0.0.1:3000/auth/twitter/callback"
     }
   }
 }
