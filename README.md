@@ -2,6 +2,8 @@
 Simple project setup using industry's best practices and modules. 
 Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap.
 
+[Demo](http://nodejs-starter.herokuapp.com)
+
 [![image](https://dsz91cxz97a03.cloudfront.net/j6Zhtcem4J-1200x1200.png)](https://cloudup.com/c9m73vDrkZk)
 
 
