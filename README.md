@@ -47,6 +47,7 @@ Run from your terminal:
 ## Common errors
 * `buffer.js:382 throw new Error('Unknown encoding');`
   Update your node.js version
+* Difficulties under Windows, refer to issue [#4](https://github.com/gravityonmars/nodejs-starter/issues/4)
 
 ## Licence 
 MIT
