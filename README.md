@@ -48,6 +48,7 @@ Run from your terminal:
 * `buffer.js:382 throw new Error('Unknown encoding');`
   Update your node.js version
 * Difficulties under Windows, refer to issue [#4](https://github.com/gravityonmars/nodejs-starter/issues/4)
+* Heroku deployment check issue [#5](https://github.com/gravityonmars/nodejs-starter/issues/5)
 
 ## Licence 
 MIT
