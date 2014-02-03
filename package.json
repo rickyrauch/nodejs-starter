@@ -28,11 +28,11 @@
     "npm": "1.3.5"
   },
   "dependencies": {
-    "passport": "~0.1.17",
+    "passport": "~0.2.0",
     "express": "~3.3.5",
     "jade": "~0.34.1",
-    "passport-facebook": "~0.1.5",
-    "passport-twitter": "~0.1.5",
+    "passport-facebook": "~1.0.2",
+    "passport-twitter": "~1.0.2",
     "mongoose": "~3.6.17",
     "connect-mongo": "~0.3.3",
     "string-to-js": "0.0.1",
