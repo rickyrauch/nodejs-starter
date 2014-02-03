@@ -35,10 +35,11 @@
     "passport-twitter": "~0.1.5",
     "mongoose": "~3.6.17",
     "connect-mongo": "~0.3.3",
-    "component-builder": "~0.9.0",
     "string-to-js": "0.0.1",
     "component-stylus-plugin": "~0.2.3",
     "commander": "~2.0.0",
-    "component": "~0.17.0"
+    "component": "~0.19.5",
+    "component-builder": "~0.10.1",
+    "debug": "~0.7.4"
   }
 }
