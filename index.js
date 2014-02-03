@@ -5,6 +5,7 @@
 var http = require('http');
 var express = require('express');
 var app = module.exports = express();
+var debug = require('debug')('njs');
 
 /**
  * Config application
@@ -45,5 +46,5 @@ app.use(require('boot'));
  */
 
 http.createServer(app).listen(app.get('port'), function() {
-  console.log('Application started on port %d', app.get('port'));
+  debug('Application started on port %d', app.get('port'));
 });
