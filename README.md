@@ -1,5 +1,5 @@
 # Node.js Starter
-Simple project setup using industry's best practices and modules. 
+Single Page App setup using industry's best practices and modules.
 Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstrap.
 
 [Demo](http://nodejs-starter.herokuapp.com)
