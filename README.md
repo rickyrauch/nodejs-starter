@@ -38,6 +38,7 @@ Run from your terminal:
 
 ## Projects using it
 * [DemocracyOS](http://github.com/DemocracyOS/app)
+* [Auth0 Website](http://auth0.com)
 * [Add yours](https://github.com/gravityonmars/nodejs-starter/edit/master/README.md)
 
 ## Contributors
