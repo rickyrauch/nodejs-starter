@@ -17,5 +17,6 @@
     "component",
     "jade"
   ],
+  "remotes": ["https://raw.githubusercontent.com"],
   "license": "MIT"
 }
