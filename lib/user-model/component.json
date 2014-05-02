@@ -3,7 +3,7 @@
   "description": "User model component.",
   "dependencies": {
     "component/emitter": "*",
-    "visionmedia/superagent": "git@github.com:visionmedia/superagent.git"
+    "visionmedia/superagent": "*"
   },
   "local": [],
   "scripts": [ "model.js" ],
