@@ -4,7 +4,7 @@ Node.js, Express, Mongoose, passport.js, component.io, Jade, Stylus and Bootstra
 
 [Demo](http://nodejs-starter.herokuapp.com)
 
-[![image](https://i.cloudup.com/Zghp8hHUK1.png)](https://cloudup.com/c9m73vDrkZk)
+[![image](https://i.cloudup.com/ls3TZxQeMb.png)](https://cloudup.com/c9m73vDrkZk)
 
 
 ## Requirements
@@ -50,6 +50,7 @@ Run from your terminal:
   Update your node.js version
 * Difficulties under Windows, refer to issue [#4](https://github.com/gravityonmars/nodejs-starter/issues/4)
 * Heroku deployment check issue [#5](https://github.com/gravityonmars/nodejs-starter/issues/5)
+* Getting { [Error: EMFILE, open %fileName%'] errno: 20, code: 'EMFILE', after running make, make run or make run-dev This is due to a limit on the amount of files that can be open at the same time by your OS. Update your .base_profile file (or similar) by adding ulimit -n 2048.
 
 ## Licence 
 MIT
