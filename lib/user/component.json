@@ -2,7 +2,7 @@
   "name": "user",
   "description": "User component.",
   "dependencies": {
-    "visionmedia/page.js": "*"
+    "visionmedia/page.js": "^1.3.7"
   },
   "local": ["user-model"],
   "scripts": [ "user.js" ],
