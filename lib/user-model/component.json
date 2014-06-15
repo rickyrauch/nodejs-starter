@@ -2,8 +2,8 @@
   "name": "user-model",
   "description": "User model component.",
   "dependencies": {
-    "component/emitter": "*",
-    "visionmedia/superagent": "*"
+    "component/emitter": "^1.1.2",
+    "visionmedia/superagent": "^0.18.0"
   },
   "local": [],
   "scripts": [ "model.js" ],

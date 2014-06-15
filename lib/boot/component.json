@@ -2,9 +2,9 @@
   "name": "boot",
   "description": "Application Booting component.",
   "dependencies": {
-    "visionmedia/page.js": "*"
+    "visionmedia/page.js": "^1.3.7"
   },
-  "local": [
+  "locals": [
     "homepage",
     "restricted",
     "user"
