@@ -4,11 +4,16 @@
 
 var express = require('express');
 var passport = require('passport');
-var MongoStore = require('connect-mongo')(express);
+var session = require('express-session');
+var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
+var MongoStore = require('connect-mongo')(session);
+var errorhandler = require('errorhandler');
 var env = require('./env');
 var path = require('path');
 var join = path.join;
 var has = Object.prototype.hasOwnProperty;
+var env = process.env.NODE_ENV || 'development';
 
 /**
  * Expose configuration helper
@@ -24,7 +29,7 @@ module.exports = function configuration (app) {
    * for development setup
    */
   
-  app.configure('development', function() {
+  if (env == 'development') {
     /**
      * Load custom `config` settings from
      * file `development.json`
@@ -44,14 +49,14 @@ module.exports = function configuration (app) {
      */
 
     app.use(require('build').middleware);
-  });
+  }
 
   /**
    * Load configuration settings
    * for testing setup
    */
   
-  app.configure('testing', function() {
+  if (env == 'testing') {
     /**
      * Load custom `config` settings from
      * file `production.json`
@@ -65,14 +70,14 @@ module.exports = function configuration (app) {
      */
 
     app.set('mongoUrl', app.get('config').mongoUrl);
-  });
+  }
 
   /**
    * Load configuration settings
    * for production setup
    */
   
-  app.configure('production', function() {
+  if (env == 'production') {
     /**
      * Load custom `config` settings from
      * file `production.json`
@@ -96,90 +101,86 @@ module.exports = function configuration (app) {
      */
 
     app.set('mongoUrl', app.get('config').mongoUrl);
-
-  });
+  }
 
   /**
    * Load configuration settings
    * for common setup
    */
+  /**
+   * Set application port
+   */
   
-  app.configure(function() {
-    /**
-     * Set application port
-     */
+  app.set('port', app.get('config').port || 3000);
+
+  /**
+   * Set `public-assets` default path
+   */
+
+  app.use(express.static( join(__dirname, '..', '/public')));
+  
+  /**
+   * Configure native `express` body parser
+   */
+
+  // parse application/x-www-form-urlencoded
+  app.use(bodyParser.urlencoded())
+
+  // parse application/json
+  app.use(bodyParser.json())
+
+  // parse application/vnd.api+json as json
+  app.use(bodyParser.json({ type: 'application/vnd.api+json' }))
+  
+  /**
+   * Configure native `express` cookie parser
+   */
+
+  app.use( cookieParser('nodejs-boilerplate') );
     
-    app.set('port', app.get('config').port || 3000);
+  /**
+   * Configure native `express` session middleware
+   */
 
-    /**
-     * Set `public-assets` default path
-     */
+  app.use(session({
+    cookie: {
+      maxAge: 1000 * 60 * 60 * 24 * 7
+    },
+    secret: 'nodejs-boilerplate',
+    key: "nodejs-boilerplate",
+    store: new MongoStore({
+      url: app.get('mongoUrl')
+    })
+  }));
 
-    app.use(express.static( join(__dirname, '..', '/public')));
-    
-    /**
-     * Configure native `express` body parser
-     */
+  /**
+   * Use `passport` setup & helpers middleware
+   */
 
-    app.use(express.bodyParser());
-    
-    /**
-     * Configure native `express` cookie parser
-     */
+  app.use(passport.initialize());
+  
+  /**
+   * Use `passport` sessions middleware
+   */
 
-    app.use( express.cookieParser('nodejs-boilerplate') );
-    
-    /**
-     * Configure native `express` session middleware
-     */
+  app.use(passport.session());
+  
+  /**
+   * Set custom error handler
+   */
 
-    app.use(express.session({
-      cookie: {
-        maxAge: 1000 * 60 * 60 * 24 * 7
-      },
-      secret: 'nodejs-boilerplate',
-      key: "nodejs-boilerplate",
-      store: new MongoStore({
-        url: app.get('mongoUrl')
-      })
-    }));
-
-    /**
-     * Use `passport` setup & helpers middleware
-     */
-
-    app.use(passport.initialize());
-    
-    /**
-     * Use `passport` sessions middleware
-     */
-
-    app.use(passport.session());
-    
-        
-    /**
-     * Set native `express` router middleware
-     */
-
-    app.use(app.router);
-    
-    /**
-     * Set custom error handler
-     */
-
-    app.use(function(err, req, res, next) {
-      // log
-      console.log('Some odd error: %j', err);
-      // now let it go
-      next();
-    });
-
-    /**
-     * Set native `express` error handler
-     */
-
-    app.use(express.errorHandler());
+  app.use(function(err, req, res, next) {
+    // log
+    console.log('Some odd error: %j', err);
+    // now let it go
+    next();
   });
+
+  /**
+   * Set native `express` error handler
+   */
+
+  app.use(errorhandler());
 }
 
 /**
