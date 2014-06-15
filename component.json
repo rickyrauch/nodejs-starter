@@ -6,7 +6,7 @@
   "paths": [
     "lib"
   ],
-  "local": [
+  "locals": [
     "boot"
   ],
   "keywords": [
