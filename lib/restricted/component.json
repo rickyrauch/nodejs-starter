@@ -8,7 +8,7 @@
     "yields/empty": "^0.0.1"
   },
   "scripts": [ "restricted.js" ],
-  "local": [ "user" ],
+  "locals": [ "user" ],
   "templates": [ "area51.jade" ],
   "main": "restricted.js"
 }
