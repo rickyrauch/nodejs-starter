@@ -6,9 +6,9 @@ ifndef NODE_ENV
   NODE_ENV="development"
 endif
 
-run: node_modules components build
+run: node_modules components config build
 	@echo "Booting application..."
-	@NODE_PATH=lib DEBUG=$(DEBUG) node index.js
+	@NODE_PATH=. DEBUG=$(DEBUG) node index.js
 
 node_modules:
 	@echo "Installing dependencies..."
@@ -16,7 +16,11 @@ node_modules:
 
 components:
 	@echo "Installing components..."
-	@node ./bin/njs-install
+	@node ./bin/njs-install --config
+
+config:
+	@echo "Updating config settings..."
+	@node ./bin/njs-config
 
 build:
 	@echo "Compiling components to ./public..."
@@ -28,4 +32,3 @@ clean:
 	@echo "Done.\n"
 
 .PHONY: run build clean
-
