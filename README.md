@@ -44,6 +44,7 @@ Run from your terminal:
 ## Contributors
 * [Cristian Douce](http://twitter.com/cristiandouce)
 * [Ricardo Rauch](http://twitter.com/gravityonmars)
+* [Sacha Lifszyc](http://twitter.com/slifszyc)
 
 ## Common errors
 * `buffer.js:382 throw new Error('Unknown encoding');`
