@@ -7,6 +7,11 @@
 var build = require('../lib/build');
 var fs = require('fs');
 var write = fs.writeFileSync;
+var path = require('path');
+var resolve = path.resolve;
+
+// Little hack to include `NODE_PATH=.`
+// require('node-path')(module, [resolve('.')]);
 
 var builder = build.createBuilder();
 builder.build(function(err, res) {
