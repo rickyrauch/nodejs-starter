@@ -29,7 +29,7 @@ program
 
 if (program.config) {
   var dest = resolve('./lib/config/' + env + '.json');
-  var orig = resolve('./lib/config/sample.json');
+  var orig = resolve('./lib/config/development.json');
   if (!exists(dest)) {
     // non-simple copying
     write(dest, read(orig));
