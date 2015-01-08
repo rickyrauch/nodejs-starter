@@ -1,14 +1,14 @@
 {
-  "name": "nodejs-starter",
+  "name": "platform",
   "version": "0.0.1",
-  "description": "Simple demo app for beginners. Node.js, express, mongoose, passport.js, component.io and jade.",
+  "description": "User friendly interface to spam Democracy OS",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/gravityonmars/nodejs-starter.git"
+    "url": "git://github.com/DemocracyOS/platform.git"
   },
   "keywords": [
     "nodejs",
@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gravityonmars/nodejs-starter/issues"
+    "url": "https://github.com/democracyos/platform/issues"
   },
   "engines": {
     "node": "0.10.15",
