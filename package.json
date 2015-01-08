@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "User friendly interface to spam Democracy OS",
   "main": "index.js",
-  "scripts": {
-    "test": "make test"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/DemocracyOS/platform.git"
@@ -16,6 +13,7 @@
     "mongoose",
     "passport",
     "component",
+    "stylus",
     "jade"
   ],
   "author": "",
@@ -24,32 +22,36 @@
     "url": "https://github.com/democracyos/platform/issues"
   },
   "engines": {
-    "node": "0.10.15",
-    "npm": "1.3.5"
+    "node": "0.10.28",
+    "npm": "1.4.9"
   },
   "dependencies": {
     "passport": "~0.2.0",
-    "express": "4.4.3",
-    "express-session": "v1.3.1",
-    "cookie-parser": "1.1.0",
-    "body-parser": "1.3.1",
-    "errorhandler": "1.0.2",
-    "compression": "1.0.7",
-    "nowww": "~1.1.2",
-    "serve-favicon": "2.0.1",
-    "jade": "~0.35.0",
-    "passport-facebook": "~1.0.2",
+    "express": "4.10.4",
+    "express-session": "v1.9.2",
+    "cookie-parser": "1.3.3",
+    "body-parser": "1.9.3",
+    "errorhandler": "1.3.0",
+    "compression": "1.2.1",
+    "nowww": "~1.1.3",
+    "serve-favicon": "2.1.7",
+    "jade": "1.7.0 ",
+    "passport-facebook": "~1.0.3",
     "passport-twitter": "~1.0.2",
-    "mongoose": "~3.6.17",
+    "mongoose": "~3.8.19",
     "connect-mongo": "0.4.1",
     "string-to-js": "0.0.1",
-    "commander": "~2.0.0",
-    "component-stylus-plugin": "~0.2.3",
-    "component": "~0.19.5",
-    "component-builder": "~0.10.1",
+    "commander": "~2.5.0",
+    "component": "1.0.0",
+    "component-builder": "1.1.13",
+    "component-resolver": "1.2.7",
+    "builder-jade": "1.0.1",
+    "stylus": "0.49.3",
+    "mkdirp": "0.5.0",
+    "ready": "0.1.1",
     "merge-util": "0.1.0",
     "node-path": "0.0.3",
     "crypto": "0.0.3",
-    "debug": "~0.7.4"
+    "debug": "2.0.0"
   }
 }
