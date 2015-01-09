@@ -1,1 +1,1 @@
-web: node ./bin/njs-install && node ./bin/njs-build && node index.js
+web: node ./bin/platform-install && node ./bin/platform-build && node index.js

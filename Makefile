@@ -1,5 +1,5 @@
 ifndef DEBUG
-  DEBUG="njs*"
+  DEBUG="platform*"
 endif
 
 ifndef NODE_ENV
@@ -16,15 +16,15 @@ node_modules:
 
 components:
 	@echo "Installing components..."
-	@node ./bin/njs-install --config
+	@node ./bin/platform-install --config
 
 config:
 	@echo "Updating config settings..."
-	@node ./bin/njs-config
+	@node ./bin/platform-config
 
 build:
 	@echo "Compiling components to ./public..."
-	@node ./bin/njs-build
+	@node ./bin/platform-build
 
 clean:
 	@echo "Removing dependencies, components and built assets."

@@ -18,9 +18,9 @@ var installc = resolve('./node_modules/.bin/component-install');
 var env = process.env.NODE_ENV || 'development';
 
 program
-  .option('-c, --config', 'copy and/or merge configuration file')
-  .option('-C, --no-components', 'ignore components install')
-  .parse(process.argv);
+    .option('-c, --config', 'copy and/or merge configuration file')
+    .option('-C, --no-components', 'ignore components install')
+    .parse(process.argv);
 
 
 /**
@@ -28,8 +28,8 @@ program
  */
 
 if (program.config) {
-  var dest = resolve('./lib/config/' + env + '.json');
-  var orig = resolve('./lib/config/sample.json');
+  var dest = resolve('./config/' + env + '.json');
+  var orig = resolve('./config/sample.json');
   if (!exists(dest)) {
     // non-simple copying
     write(dest, read(orig));
@@ -43,7 +43,7 @@ if (program.config) {
     // save config file
     write(dest, stringify(sample, null, 2));
   }
-};
+}
 
 if (program.components && exists(installc)) {
   exec(installc, function(err, stdout, stderr) {
@@ -51,4 +51,4 @@ if (program.components && exists(installc)) {
     if (stderr.length) return console.log(stderr), process.exit(1);
     if (err != null) return console.log(err), process.exit(1);
   });
-};
+}

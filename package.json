@@ -28,7 +28,7 @@
   "dependencies": {
     "passport": "~0.2.0",
     "express": "4.10.4",
-    "express-session": "v1.9.2",
+    "express-session": "1.9.2",
     "cookie-parser": "1.3.3",
     "body-parser": "1.9.3",
     "errorhandler": "1.3.0",
@@ -42,7 +42,7 @@
     "connect-mongo": "0.4.1",
     "string-to-js": "0.0.1",
     "commander": "~2.5.0",
-    "component": "1.0.0",
+    "component": "1.0.0-rc5",
     "component-builder": "1.1.13",
     "component-resolver": "1.2.7",
     "builder-jade": "1.0.1",
