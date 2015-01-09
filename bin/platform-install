@@ -28,8 +28,8 @@ program
  */
 
 if (program.config) {
-  var dest = resolve('./config/' + env + '.json');
-  var orig = resolve('./config/sample.json');
+  var dest = resolve('./lib/config/' + env + '.json');
+  var orig = resolve('./lib/config/sample.json');
   if (!exists(dest)) {
     // non-simple copying
     write(dest, read(orig));
