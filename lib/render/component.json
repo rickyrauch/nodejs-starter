@@ -3,6 +3,7 @@
   "description": "Component render utility",
   "dependencies": {
     "component/dom": "^1.0.6",
+    "component/removed": "~0.0.3",
     "component/t": "1.0.0",
     "ripplejs/ripple": "~0.5.3",
     "cristiandouce/merge-util": "0.2.0"
