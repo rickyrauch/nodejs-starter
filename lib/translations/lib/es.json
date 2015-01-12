@@ -1,5 +1,8 @@
 {
   "header.logo": "DemocracyOS Platform",
   "header.login": "Entrar",
-  "header.signup": "Registrarse"
+  "header.signup": "Registrarse",
+
+  "login.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
+  "login.error.user-disabled": "Esta cuenta ha sido deshabilitada"
 }
