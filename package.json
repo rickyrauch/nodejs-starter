@@ -38,7 +38,10 @@
     "jade": "1.7.0 ",
     "passport-facebook": "~1.0.3",
     "passport-twitter": "~1.0.2",
+    "passport-local": "~0.1.6",
+    "passport-local-mongoose": "~0.2.4",
     "mongoose": "~3.8.19",
+    "mongoose-gravatar": "~0.2.1",
     "connect-mongo": "0.4.1",
     "string-to-js": "0.0.1",
     "commander": "~2.5.0",
@@ -52,6 +55,7 @@
     "merge-util": "0.1.0",
     "node-path": "0.0.3",
     "crypto": "0.0.3",
-    "debug": "2.0.0"
+    "debug": "2.0.0",
+    "t-component": "1.0.0"
   }
 }
