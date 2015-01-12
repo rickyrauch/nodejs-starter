@@ -1,0 +1,110 @@
+/* Vars
+-------------------------------------------------- */
+header_height = 60px
+spacing = 20px
+
+/* Header
+-------------------------------------------------- */
+header.app-header
+  position fixed
+  z-index 20
+  top 0
+  left 0
+  right 0
+  height header_height
+  background #51394a
+  color white
+  padding-left spacing
+  font-weight bold
+  text-transform uppercase
+  font-size 12px
+
+  a
+    color white
+    &:hover
+      color white
+
+  h1
+    display inline-block
+    width 300px
+    font-size 12px
+    margin-top 12px
+    .logo
+      height 40px
+      display inline-block
+      margin-right 10px
+      margin-top -2px
+
+  .user-nav
+    display inline-block
+    float right
+    list-style none
+    margin-right spacing
+    position absolute
+    right 0
+    top 0px
+
+    .user
+      float right
+
+    .login
+      padding 6px 12px
+      display inline-block
+      margin-top 15px
+      i
+        display none
+        font-size 20px
+      &:hover
+        text-decoration none
+
+@keyframes slideUp {
+  from {
+    transform translateY(0)
+    -moz-transform translateY(0)
+    -webkit-transform translateY(0)
+    -o-keyframes translateY(0)
+  }
+  to {
+    transform translateY(-100%)
+    -moz-transform translateY(-100%)
+    -webkit-transform translateY(-100%)
+    -o-keyframes translateY(-100%)
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform translateY(-100%)
+    -moz-transform translateY(-100%)
+    -webkit-transform translateY(-100%)
+    -o-keyframes translateY(-100%)
+  }
+  to {
+    transform translateY(0)
+    -moz-transform translateY(0)
+    -webkit-transform translateY(0)
+    -o-keyframes translateY(0)
+  }
+}
+
+.headroom
+  -webkit-animation-duration .5s
+  -moz-animation-duration .5s
+  -o-animation-duration .5s
+  animation-duration .5s
+  -webkit-animation-fill-mode both
+  -moz-animation-fill-mode both
+  -o-animation-fill-mode both
+  animation-fill-mode both
+
+  &.headroom--pinned
+    -webkit-animation-name slideDown
+    -moz-animation-name slideDown
+    -o-animation-name slideDown
+    animation-name slideDown
+
+  &.headroom--unpinned
+    -webkit-animation-name slideUp
+    -moz-animation-name slideUp
+    -o-animation-name slideUp
+    animation-name slideUp

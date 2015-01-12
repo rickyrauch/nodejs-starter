@@ -1,0 +1,13 @@
+{
+  "name": "render",
+  "description": "Component render utility",
+  "dependencies": {
+    "component/dom": "^1.0.6",
+    "component/t": "1.0.0",
+    "ripplejs/ripple": "~0.5.3",
+    "cristiandouce/merge-util": "0.2.0"
+  },
+  "locals": [ "user", "config" ],
+  "scripts": [ "render.js" ],
+  "main": "render.js"
+}

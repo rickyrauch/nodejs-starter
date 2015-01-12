@@ -1,0 +1,17 @@
+{
+  "name": "header",
+  "dependencies": {
+    "component/dom": "^1.0.6",
+    "democracyos/headroom.js": "0.7.1"
+  },
+  "scripts": [
+    "header.js",
+    "view.js"
+  ],
+  "locals": [
+    "render"
+  ],
+  "templates": [ "template.jade" ],
+  "styles": [ "header.styl" ],
+  "main": "header.js"
+}

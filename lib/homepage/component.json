@@ -3,9 +3,9 @@
   "description": "Homepage page.",
   "dependencies": {
     "component/dom": "^1.0.6",
-    "ripplejs/ripple": "~0.5.3",
     "visionmedia/page.js": "^1.5.0"
   },
+  "locals": [ "render" ],
   "scripts": [
     "homepage.js",
     "view.js"
