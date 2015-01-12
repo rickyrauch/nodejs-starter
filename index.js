@@ -5,7 +5,7 @@
 var http = require('http');
 var express = require('express');
 var app = module.exports = require('lib/boot');
-var debug = require('debug')('njs');
+var debug = require('debug')('platform');
 
 /**
  * Launch server

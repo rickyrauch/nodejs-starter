@@ -5,9 +5,12 @@
  */
 
 var program = require('commander');
+var pkg = require('../package');
 
 program
-  .version('0.0.1')
+  .version(pkg.version)
   .command('install', "Install client components.")
   .command('build', "Builds client application and compiles assets.")
-  .parse(process.argv)
+  .command('config', "Builds client side configs after merge.")
+  .command('db', "Install a development database")
+  .parse(process.argv);
