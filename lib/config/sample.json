@@ -5,6 +5,7 @@
     "organization name"
   ],
   "organization name": "node-js",
+  "locale": "es",
   "auth": {
     "facebook": {
       "clientID": "FBClientId",
