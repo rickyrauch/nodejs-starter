@@ -6,6 +6,7 @@
     "visionmedia/page.js": "^1.5.0"
   },
   "locals": [
+    "autovalidate",
     "render"
   ],
   "scripts": [
