@@ -8,6 +8,7 @@
   "header.login": "Entrar",
   "header.signup": "Registrarse",
 
+  "signin.login.to": "Ingresa a",
   "signin.password": "contraseña",
   "signin.forgot.question": "¿Olvidaste tu contraseña?",
   "signin.have.account": "¿Estas registrado?",
