@@ -2,7 +2,6 @@
   "name": "signup",
   "dependencies": {
     "component/dom": "^1.0.6",
-    "ripplejs/events": "~0.1.2",
     "visionmedia/page.js": "^1.5.0"
   },
   "locals": [

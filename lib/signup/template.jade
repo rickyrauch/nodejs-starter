@@ -1,10 +1,10 @@
 .signup-container.inner-container.small-container
-  #signup-form(hidden='{{ success }}', autovalidate)
+  #signup-form(hidden='{{ success }}')
     .title-page
       .circle
         i.icon-user
       h1= t('signup.title')
-    form.form(action='/signup', method="post", role="form", autovalidate, autosubmit)
+    form.form(action='/signup', method="post", role="form", autovalidate)
       ul.form-errors
       .form-group
         label= t('common.email')
@@ -21,7 +21,7 @@
       .form-group
         label= t('signup.repeat-password.label')
         input.form-control(type='password', name='re_password', tabindex=5, placeholder=t('signup.repeat-password.placeholder'), validate='required same:password')
-      .form-group: button(tabindex=6).btn.btn-success.btn-block.btn-lg=t('signup.submit')
+      .form-group: button(type='submit', tabindex=6).btn.btn-success.btn-block.btn-lg=t('signup.submit')
   #signup-message(hidden='{{ !success }}')
     h1=t('signup.success.title')
     p.lead.text-muted=t('signup.success.text.1')
