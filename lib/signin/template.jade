@@ -1,0 +1,21 @@
+.signin-container.inner-container.small-container
+  #signin-form
+    .title-page
+      .circle
+        i.icon-signin
+      h1 Login to DemocracyOS
+
+    form.form(action="/signin", method="post", role="form", autovalidate='autovalidate', autosubmit='autosubmit')
+      ul.form-errors
+      .form-group
+        label='Email'
+        input.form-control(type='text', name='email', tabindex=1, placeholder='forgot.mail.example', validate='required email')
+      .form-group
+        label='password'
+        .forgot: a(href='/forgot', tabindex=4) forgot.question
+
+        input.form-control(type='password', name='password', tabindex=2, placeholder='password', validate='required')
+      .form-group: .signup
+        span='Don\'t have an account?'
+        a(href='/signup', tabindex=5) 'Signup now'
+      .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=3)='Login'
