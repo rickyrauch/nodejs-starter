@@ -5,8 +5,8 @@
         i.icon-user
       h1= t('signup.title')
     form.form(action='/signup', method="post", role="form", autosubmit, autovalidate)
-      ul.form-errors
-        | {{ errors }}
+      ul.form-errors(each='{{ errors }}')
+        li.error='{{this}}'
       .form-group
         label= t('common.email')
         input.form-control(type='email', name='email', tabindex=1, placeholder=t('signup.email.placeholder'), validate='required email', value='{{ email }}')

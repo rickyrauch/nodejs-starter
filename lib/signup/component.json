@@ -2,6 +2,7 @@
   "name": "signup",
   "dependencies": {
     "ripplejs/bind-methods": "^1.0.0",
+    "ripplejs/each": "~0.4.1",
     "component/dom": "^1.0.6",
     "visionmedia/page.js": "^1.5.0"
   },
