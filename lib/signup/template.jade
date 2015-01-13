@@ -4,7 +4,7 @@
       .circle
         i.icon-user
       h1= t('signup.title')
-    form.form(action='/signup', method="post", role="form", autovalidate)
+    form.form(action='/signup', method="post", role="form", autosubmit, autovalidate)
       ul.form-errors
       .form-group
         label= t('common.email')
