@@ -56,6 +56,7 @@
     "node-path": "0.0.3",
     "crypto": "0.0.3",
     "debug": "2.0.0",
-    "t-component": "1.0.0"
+    "t-component": "1.0.0",
+    "csurf": "^1.6.5"
   }
 }
