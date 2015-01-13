@@ -1,10 +1,21 @@
 {
   "common.email": "Correo electrónico",
   "common.password": "Contraseña",
+  "common.login": "Ingresar",
+  "common.name": "DemocracyOS Platform",
 
   "header.logo": "DemocracyOS Platform",
   "header.login": "Entrar",
   "header.signup": "Registrarse",
+
+  "signin.password": "contraseña",
+  "signin.forgot.question": "¿Olvidaste tu contraseña?",
+  "signin.have.account": "¿Estas registrado?",
+  "signin.now": "Registrate ahora.",
+  "signin.forgot.mail.example": "ejemplo@email.com",
+  "signin.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
+  "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
+
 
   "validators.required": "Requerido",
   "validators.checked": "Chequeado requerido",
@@ -24,8 +35,6 @@
   "validators.invalid": "No válido",
   "validators.invalid.time": "Tiempo no válido",
 
-  "signin.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
-  "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
 
   "signup.title": "Registrarse con correo electrónico",
   "signup.email.placeholder": "ejemplo@correo.com",
