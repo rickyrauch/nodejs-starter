@@ -1,5 +1,7 @@
 {
   "port": 3000,
+  "host": "localhost",
+  "protocol": "http",
   "mongoUrl": "mongodb://localhost/nodejs-starter",
   "client": [
     "organization name"
