@@ -1,1 +1,1 @@
-web: node ./bin/platform-install && node ./bin/platform-build && node index.js
+web: node index.js
