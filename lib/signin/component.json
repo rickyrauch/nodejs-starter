@@ -4,10 +4,12 @@
   "dependencies": {
     "visionmedia/page.js": "^1.5.0",
     "component/dom": "1.0.6",
+    "jadejs/jade": "1.1.5",
     "component/t": "1.0.0"
   },
   "locals": [
-    "render"
+    "user",
+    "form-view"
   ],
   "scripts": [ "signin.js", "view.js" ],
   "styles": [ "signin.styl" ],
