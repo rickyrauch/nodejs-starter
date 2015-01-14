@@ -6,9 +6,10 @@ header.app-header(headroom)
         span.logo-link=t('header.logo')
 
     .user-nav.btn-group
-      a.login.pull-right(href='/signin')
+      .user
+      a(href='/signin').login.pull-right.anonymous-user
         i.icon-signin
         span= t('header.login')
-      a.login.pull-right(href='/signup')
+      a(href='/signup').login.pull-right.anonymous-user
         i.icon-user
         span= t('header.signup')
