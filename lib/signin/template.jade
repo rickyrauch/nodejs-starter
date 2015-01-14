@@ -4,19 +4,20 @@
       .circle
         i.icon-signin
       h1=t('signin.login.to') + " " + t('common.name')
-    form.form(action="/signin", method="post", role="form", autovalidate='autovalidate', autosubmit='autosubmit')
+
+    form.form(action="/signin", method="post", role="form", novalidate, autovalidate, autosubmit)
       ul.form-errors
 
-    .form-group
-      label= t('common.email')
-      input.form-control(type='text', name='email', tabindex=1, placeholder=t('signin.forgot.mail.example'), validate='required email')
+      .form-group
+        label= t('common.email')
+        input.form-control(type='text', name='email', tabindex=1, placeholder=t('signin.forgot.mail.example'), validate='required email')
 
-    .form-group
-      label=t('common.password')
-      .forgot: a(href='/forgot', tabindex=4)=t('signin.forgot.question')
+      .form-group
+        label=t('common.password')
+        .forgot: a(href='/forgot', tabindex=4)=t('signin.forgot.question')
 
-      input.form-control(type='password', name='password', tabindex=2, placeholder=t('signin.password'), validate='required')
-    .form-group: .signup
-      span=t('signin.have.account')
-      a(href='/signup', tabindex=5)=t('signin.now')
-    .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=3)=t('common.login')
+        input.form-control(type='password', name='password', tabindex=2, placeholder=t('signin.password'), validate='required')
+      .form-group: .signup
+        span=t('signin.have.account')
+        a(href='/signup', tabindex=5)=t('signin.now')
+      .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=3)=t('common.login')
