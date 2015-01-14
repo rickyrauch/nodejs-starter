@@ -1,0 +1,16 @@
+{
+  "name": "signup",
+  "description": "Signup page.",
+  "dependencies": {
+    "component/dom": "^1.0.6",
+    "component/t": "1.0.0",
+    "visionmedia/page.js": "^1.5.0"
+  },
+  "locals": [ "form-view" ],
+  "scripts": [
+    "signup.js",
+    "view.js"
+  ],
+  "templates": [ "template.jade" ],
+  "main": "signup.js"
+}

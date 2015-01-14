@@ -57,6 +57,7 @@
     "crypto": "0.0.3",
     "debug": "2.0.0",
     "t-component": "1.0.0",
-    "csurf": "^1.6.5"
+    "csurf": "^1.6.5",
+    "notifier-client": "0.2.0"
   }
 }
