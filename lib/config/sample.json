@@ -3,6 +3,8 @@
   "host": "localhost",
   "protocol": "http",
   "mongoUrl": "mongodb://localhost/nodejs-starter",
+  "host": "localhost",
+  "protocol": "http",
   "client": [
     "organization name"
   ],
@@ -19,5 +21,9 @@
       "consumerSecret": "TwitterConsumerSecret",
       "callback": "http://127.0.0.1:3000/auth/twitter/callback"
     }
+  },
+  "notifications": {
+    "url": "http://localhost:9001/api/events",
+    "token": 1234
   }
 }

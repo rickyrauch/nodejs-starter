@@ -1,0 +1,12 @@
+{
+  "name": "title",
+  "description": "Update page's title by html head",
+  "dependencies": {
+    "component/dom": "^1.0.6"
+  },
+  "locals": [
+    "config"
+  ],
+  "scripts": [ "title.js" ],
+  "main": "title.js"
+}

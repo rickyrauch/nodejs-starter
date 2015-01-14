@@ -3,6 +3,7 @@
   "common.password": "Password",
   "common.login": "Login",
   "common.name": "DemocracyOS Platform",
+  "common.no-user-for-email" : "No user found for that email address",
 
   "header.logo": "DemocracyOS Platform",
   "header.login": "Login",
@@ -18,6 +19,8 @@
   "signin.error.email-not-valid": "The email address for this citizen is not validated. We send citizens a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
   "signin.error.user-disabled": "This account has been disabled",
   
+
+
   "validators.required": "Required",
   "validators.checked": "Required checked field",
   "validators.invalid.email": "Invalid email",
@@ -47,6 +50,7 @@
   "signup.submit": "Signup now!",
   "signup.resend.email": "Resend validation email",
   "signup.success.title": "Welcome!",
+  "signup.success.welcome": "Welcome {name}!",
   "signup.success.text.1": "Your sign up data was received. We sent you an email so you can validate your email address.",
   "signup.success.text.2": "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.",
   "singup.resend.email": "Resend validation email"
