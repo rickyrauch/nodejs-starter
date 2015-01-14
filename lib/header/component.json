@@ -9,7 +9,12 @@
     "view.js"
   ],
   "locals": [
-    "render"
+    "is-mobile",
+    "user",
+    "user-badge",
+    "render",
+    "snapper",
+    "view"
   ],
   "templates": [ "template.jade" ],
   "styles": [ "header.styl" ],

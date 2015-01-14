@@ -5,12 +5,13 @@ html
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
     link(href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css", rel="stylesheet", media="screen")
     link(rel='stylesheet', href='/app.css')
+    script.
+      var csrfToken = '#{csrfToken}';
+
   body
     header.app-header
     section.site-content
 
-    script.
-      var csrfToken = '#{csrfToken}';
     script(src='/app.js')
     script.
       require('./lib/boot')
