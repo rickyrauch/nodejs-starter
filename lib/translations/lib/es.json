@@ -1,8 +1,44 @@
 {
+  "common.email": "Correo electrónico",
+  "common.password": "Contraseña",
+
   "header.logo": "DemocracyOS Platform",
   "header.login": "Entrar",
   "header.signup": "Registrarse",
 
-  "login.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
-  "login.error.user-disabled": "Esta cuenta ha sido deshabilitada"
+  "validators.required": "Requerido",
+  "validators.checked": "Chequeado requerido",
+  "validators.invalid.email": "Correo no válido",
+  "validators.invalid.firstname": "Nombre no válido",
+  "validators.invalid.lastname": "Apellido no válido",
+  "validators.invalid.author": "Autor no válido",
+  "validators.invalid.url": "URL no válida",
+  "validators.invalid.number": "Número no válido",
+  "invalid.password": "Contraseña no válida",
+  "validators.min-length.singular": "Al menos 1 caracter",
+  "validators.min-length.plural": "Al menos {n} caracteres",
+  "validators.max-length.singular": "1 caracter máximo",
+  "validators.max-length.plural": "{n} caracteres máximo",
+  "validators.input.not-exists": "el elemento {name} no existe",
+  "validators.password.not.match": "Las contraseñas no coinciden",
+  "validators.invalid": "No válido",
+  "validators.invalid.time": "Tiempo no válido",
+
+  "signin.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
+  "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
+
+  "signup.title": "Registrarse con correo electrónico",
+  "signup.email.placeholder": "ejemplo@correo.com",
+  "signup.firstname.label": "Tu nombre",
+  "signup.firstname.placeholder": "Nombre",
+  "signup.lastname.label": "Tu apellido",
+  "signup.lastname.placeholder": "Apellido",
+  "signup.repeat-password.label": "Repetir contraseña",
+  "signup.repeat-password.placeholder": "Repetir contraseña",
+  "signup.submit": "¡Regístrate!",
+  "signup.resend.email": "Reenviar correo electrónico de validación",
+  "signup.success.title": "¡Bienvenido!",
+  "signup.success.text.1": "Te registraste. Te hemos enviado un correo electrónico para que puedas validar tu dirección de correo electrónico.",
+  "signup.success.text.2": "El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto.",
+  "singup.resend.email": "Reenviar correo electrónico de validación"
 }
