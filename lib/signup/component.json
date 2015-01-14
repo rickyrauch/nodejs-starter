@@ -4,13 +4,17 @@
   "dependencies": {
     "component/dom": "^1.0.6",
     "component/t": "1.0.0",
-    "visionmedia/page.js": "^1.5.0"
+    "visionmedia/page.js": "^1.5.0",
+    "segmentio/submit-form": "0.0.1"
   },
-  "locals": [ "form-view" ],
-  "scripts": [
-    "signup.js",
-    "view.js"
+  "locals": [
+    "form-view",
+    "view",
+    "title",
+    "user"
   ],
-  "templates": [ "template.jade" ],
+  "scripts": [ "signup.js", "signup-form-view.js", "email-validation-form-view.js", "resend-validation-email-form-view.js", "email-validation-complete-view.js" ],
+  "styles": [ "signup.styl" ],
+  "templates": [ "signup-form.jade" , "email-validation-complete.jade", "resend-validation-email-form.jade", "email-validation.jade"],
   "main": "signup.js"
 }
