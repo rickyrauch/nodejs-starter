@@ -1,6 +1,6 @@
 {
   "port": 3000,
-  "mongoUrl": "mongodb://localhost/nodejs-starter",
+  "mongoUrl": "mongodb://localhost/democracyos-platform",
   "host": "localhost",
   "protocol": "http",
   "client": [
