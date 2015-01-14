@@ -2,6 +2,7 @@
   "common.email": "Email",
   "common.password": "Password",
   "common.no-user-for-email" : "No user found for that email address",
+  "common.please.wait": "Please wait",
 
   "header.logo": "DemocracyOS Platform",
   "header.login": "Login",
@@ -43,6 +44,7 @@
   "signup.success.text.1": "Your sign up data was received. We sent you an email so you can validate your email address.",
   "signup.success.text.2": "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.",
   "singup.resend.email": "Resend validation email",
+  "signup.email.used": "There is already a user using %s",
 
   "forgot.mail.example": "example@email.com"
 }
