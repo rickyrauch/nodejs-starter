@@ -1,7 +1,7 @@
 .user-badge.pull-right
   a.btn.profile(href='#', data-toggle='dropdown').dropdown-toggle
-    img(src=citizen.profilePicture())
-    span.name.ellipsis=citizen.firstName
+    img(src=user.avatar)
+    span.name.ellipsis=user.firstName
     span.caret
   ul.dropdown-menu
     li: a(href='/settings')= t('header.settings')
