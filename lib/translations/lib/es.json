@@ -1,6 +1,7 @@
 {
   "common.email": "Correo electrónico",
   "common.password": "Contraseña",
+  "common.no-user-for-email" : "No tenemos registrado ese correo electrónico",
 
   "header.logo": "DemocracyOS Platform",
   "header.login": "Entrar",
@@ -38,7 +39,10 @@
   "signup.submit": "¡Regístrate!",
   "signup.resend.email": "Reenviar correo electrónico de validación",
   "signup.success.title": "¡Bienvenido!",
+  "signup.success.welcome": "¡Bienvenido {name}!",
   "signup.success.text.1": "Te registraste. Te hemos enviado un correo electrónico para que puedas validar tu dirección de correo electrónico.",
   "signup.success.text.2": "El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto.",
-  "singup.resend.email": "Reenviar correo electrónico de validación"
+  "singup.resend.email": "Reenviar correo electrónico de validación",
+
+  "forgot.mail.example": "ejemplo@correo.com"
 }
