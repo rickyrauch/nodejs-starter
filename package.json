@@ -61,6 +61,6 @@
     "notifier-client": "0.2.0"
   },
   "scripts": {
-    "postinstall": "node ./bin/dos-install && node ./bin/dos-config && node ./bin/dos-build"
+    "postinstall": "node ./bin/platform-install && node ./bin/platform-config && node ./bin/platform-build"
   }
 }
