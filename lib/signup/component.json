@@ -4,7 +4,7 @@
   "dependencies": {
     "component/dom": "^1.0.6",
     "component/t": "1.0.0",
-    "visionmedia/page.js": "^1.5.0",
+    "visionmedia/page.js": "1.5.0",
     "segmentio/submit-form": "0.0.1"
   },
   "locals": [

@@ -3,7 +3,7 @@
   "description": "Homepage page.",
   "dependencies": {
     "component/dom": "^1.0.6",
-    "visionmedia/page.js": "^1.5.0"
+    "visionmedia/page.js": "1.5.0"
   },
   "locals": [ "render", "view" ],
   "scripts": [
