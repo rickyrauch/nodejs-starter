@@ -8,6 +8,9 @@
   "header.logo": "DemocracyOS Platform",
   "header.login": "Entrar",
   "header.signup": "Registrarse",
+  "header.logout": "Cerrar sesión",
+  "header.settings": "Configuración",
+  "header.feedback": "Sugerencias",
 
   "signin.login.to": "Ingresa a",
   "signin.password": "contraseña",
