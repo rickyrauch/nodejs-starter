@@ -11,6 +11,6 @@ var debug = require('debug')('platform');
  * Launch server
  */
 
-http.createServer(app).listen(app.get('port'), function() {
-  debug('Application started on port %d', app.get('port'));
+http.createServer(app).listen(app.get('privatePort'), function() {
+  debug('Application started on port %d', app.get('privatePort'));
 });
