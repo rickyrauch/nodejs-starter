@@ -22,8 +22,6 @@
   "signin.forgot.mail.example": "example@email.com",
   "signin.error.email-not-valid": "The email address for this citizen is not validated. We send citizens a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
   "signin.error.user-disabled": "This account has been disabled",
-  
-
 
   "validators.required": "Required",
   "validators.checked": "Required checked field",
@@ -43,7 +41,6 @@
   "validators.invalid": "Invalid",
   "validators.invalid.time": "Invalid time",
 
-
   "signup.title": "Signup with email",
   "signup.email.placeholder": "example@email.com",
   "signup.firstname.label": "Your firstname",
@@ -61,5 +58,15 @@
   "singup.resend.email": "Resend validation email",
   "signup.email.used": "There is already a user using %s",
 
-  "forgot.mail.example": "example@email.com"
+  "forgot.mail.example": "example@email.com",
+  "forgot.explanation": "We will send an email with a link to reset your password",
+  "forgot.mail.sent": "We just sent a message to your email with instructions to create a new password",
+  "forgot.reset": "Reset Password!",
+  "forgot.question": "Forgot Password?",
+  "password.new": "Nueva contraseña",
+  "password.retype": "Reingresa la nueva contraseña",
+  "password.new": "New Password",
+  "password.retype": "Retype new password",
+  "password": "Password",
+  "password.repeat": "Repeat password"
 }
