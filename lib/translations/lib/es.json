@@ -22,7 +22,6 @@
   "signin.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
   "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
 
-
   "validators.required": "Requerido",
   "validators.checked": "Chequeado requerido",
   "validators.invalid.email": "Correo no válido",
@@ -41,7 +40,6 @@
   "validators.invalid": "No válido",
   "validators.invalid.time": "Tiempo no válido",
 
-
   "signup.title": "Registrarse con correo electrónico",
   "signup.email.placeholder": "ejemplo@correo.com",
   "signup.firstname.label": "Tu nombre",
@@ -59,5 +57,13 @@
   "singup.resend.email": "Reenviar correo electrónico de validación",
   "signup.email.used": "Ya existe un usuario con el correo electrónico %s",
 
-  "forgot.mail.example": "ejemplo@correo.com"
+  "forgot.mail.example": "ejemplo@correo.com",
+  "forgot.explanation": "Te enviaremos un correo electrónico con un enlace para reestablecer tu contraseña",
+  "forgot.mail.sent": "Enviamos un mensaje a tu correo electrónico con instrucciones para crear una nueva contraseña",
+  "forgot.reset": "¡Reestablecer contraseña!",
+  "forgot.question": "¿Olvidaste tu contraseña?",
+  "password.new": "Nueva contraseña",
+  "password.retype": "Reingresa la nueva contraseña",
+  "password": "Password",
+  "password.repeat": "Repetir contraseña"
 }
