@@ -8,7 +8,7 @@
     "organization name"
   ],
   "organization name": "node-js",
-  "locale": "es",
+  "locale": "en",
   "auth": {
     "facebook": {
       "clientID": "FBClientId",
