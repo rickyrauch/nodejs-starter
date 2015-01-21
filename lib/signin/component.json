@@ -9,7 +9,8 @@
   },
   "locals": [
     "user",
-    "form-view"
+    "form-view",
+    "jwt"
   ],
   "scripts": [ "signin.js", "view.js" ],
   "styles": [ "signin.styl" ],

@@ -7,7 +7,8 @@
   },
   "local": [
     "stateful",
-    "request"
+    "request",
+    "jwt"
   ],
   "scripts": [ "model.js" ],
   "main": "model.js",
