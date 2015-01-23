@@ -3,9 +3,10 @@
   "description": "Dashboard page",
   "dependencies": {
     "component/dom": "^1.0.6",
-    "visionmedia/page.js": "1.5.0"
+    "visionmedia/page.js": "1.5.0",
+    "visionmedia/debug": "2.1.0"
   },
-  "locals": [ "render", "view" ],
+  "locals": [ "render", "view", "request", "config", "jwt" ],
   "scripts": [
     "dashboard.js",
     "view.js"
