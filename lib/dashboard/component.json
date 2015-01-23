@@ -6,7 +6,14 @@
     "visionmedia/page.js": "1.5.0",
     "visionmedia/debug": "2.1.0"
   },
-  "locals": [ "render", "view", "request", "config", "jwt" ],
+  "locals": [
+    "render",
+    "view",
+    "request",
+    "config",
+    "jwt",
+    "instance-view"
+  ],
   "scripts": [
     "dashboard.js",
     "view.js"
