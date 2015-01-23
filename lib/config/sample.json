@@ -5,7 +5,8 @@
   "host": "localhost",
   "protocol": "http",
   "client": [
-    "organization name"
+    "organization name",
+    "redirectUrl"
   ],
   "organization name": "node-js",
   "locale": "en",
@@ -24,5 +25,7 @@
   "notifications": {
     "url": "http://localhost:9001/api/events",
     "token": 1234
-  }
+  },
+  "secret": "Just a sample secret string",
+  "redirectUrl": "http://localhost:3000"
 }
