@@ -1,0 +1,21 @@
+.signin-container.inner-container.small-container
+  #signin-form
+    .title-page
+      h1=t('Create new instance')
+
+    form.form(action="/instances/new", method="post", role="form", novalidate, autovalidate, autosubmit)
+      ul.form-errors
+
+      .form-group
+        label= t('Title')
+        input.form-control(type='text', name='title', tabindex=1, placeholder=t('The name of your instance; e.g., "City of Springfield"'), validate='required')
+
+      .form-group
+        label= t('Summary')
+        textarea.form-control(name='Summary', tabindex=2, placeholder=t('A brief description of the purpose of the instance'), validate='required')
+
+      .form-group
+        label= t('URL')
+        input.form-control(type='text', name='url', tabindex=3, placeholder=t('http://example.democracyos.com'), validate='required url')
+
+      .form-group: button.btn.btn-block.btn-primary.btn-lg(tabindex=3)=t('Create')
