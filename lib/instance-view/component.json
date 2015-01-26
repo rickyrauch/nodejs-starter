@@ -10,5 +10,6 @@
     "view.js"
   ],
   "templates": [ "template.jade" ],
+  "styles": [ "instance-view.styl" ],
   "main": "view.js"
 }
