@@ -6,7 +6,7 @@
     "visionmedia/page.js": "1.5.0",
     "component/t": "1.0.0"
   },
-  "locals": [ "render", "view", "form-view", "config", "jwt" ],
+  "locals": [ "render", "view", "form-view", "config", "jwt", "title" ],
   "scripts": [
     "instance-form.js",
     "view.js",

@@ -8,6 +8,7 @@
     "component/t": "1.0.0"
   },
   "locals": [
+    "title",
     "user",
     "form-view",
     "jwt"

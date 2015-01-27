@@ -13,6 +13,7 @@
   "header.settings": "Settings",
   "header.feedback": "Feedback",
 
+  "signin.title": "Sign in",
   "signin.password": "password",
   "signin.login.to": "Login to",
   "signin.forgot.question": "Forgot Password?",
@@ -22,6 +23,11 @@
   "signin.forgot.mail.example": "example@email.com",
   "signin.error.email-not-valid": "The email address for this citizen is not validated. We send citizens a welcome email when they sign up. Please check your email (remember to check your spam folder too) and click on the link supplied on the email. Click <a href='/signup/resend-validation-email'>here</a> if you need the welcome email to be resent",
   "signin.error.user-disabled": "This account has been disabled",
+
+  "dashboard.title": "Dashboard",
+
+  "instance.new.title": "New instance",
+  "instance.success.title": "Instance created",
 
   "validators.required": "Required",
   "validators.checked": "Required checked field",

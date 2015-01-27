@@ -13,6 +13,7 @@
   "header.settings": "Configuración",
   "header.feedback": "Sugerencias",
 
+  "signin.title": "Ingresar",
   "signin.login.to": "Ingresa a",
   "signin.password": "contraseña",
   "signin.forgot.question": "¿Olvidaste tu contraseña?",
@@ -21,6 +22,11 @@
   "signin.forgot.mail.example": "ejemplo@email.com",
   "signin.error.email-not-valid": "La dirección de correo electrónico no ha sido validada. A cada ciudadano se le envía un correo electrónico de bienvenida al momento de registrarse. El siguiente paso es abrir el correo electrónico que te hemos enviado (no te olvides de la carpeta 'Correo no deseado') y hacer clic en el enlace provisto. Cliquea <a href='/signup/resend-validation-email'>aquí</a> si necesitás que te reenviemos el correo electrónico de bienvenida",
   "signin.error.user-disabled": "Esta cuenta ha sido deshabilitada",
+
+  "dashboard.title": "Tablero",
+
+  "instance.new.title": "Nueva instancia",
+  "instance.success.title": "Instancia creada",
 
   "validators.required": "Requerido",
   "validators.checked": "Chequeado requerido",
