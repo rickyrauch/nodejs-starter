@@ -6,7 +6,7 @@
     "visionmedia/page.js": "1.5.0",
     "visionmedia/debug": "2.1.0"
     },
-  "locals": [ "request" ],
+  "locals": [ "request", "jwt" ],
   "scripts": [ "logout.js" ],
   "styles": [ ],
   "templates": [ ],

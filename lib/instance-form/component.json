@@ -1,0 +1,17 @@
+{
+  "name": "instance-form",
+  "description": "Add/create Instance form view",
+  "dependencies": {
+    "component/dom": "^1.0.6",
+    "visionmedia/page.js": "1.5.0",
+    "component/t": "1.0.0"
+  },
+  "locals": [ "render", "view", "form-view", "config", "jwt" ],
+  "scripts": [
+    "instance-form.js",
+    "view.js",
+    "success-view.js"
+  ],
+  "templates": [ "template.jade", "success-template.jade" ],
+  "main": "instance-form.js"
+}
