@@ -1,0 +1,8 @@
+{
+  "name": "regexps",
+  "description": "Collection of regular expressions",
+  "scripts": [
+    "index.js"
+  ],
+  "main": "index.js"
+}

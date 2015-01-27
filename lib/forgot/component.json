@@ -1,0 +1,14 @@
+{
+  "name": "forgot",
+  "description": "Forgot Password page",
+  "dependencies": {
+    "visionmedia/page.js": "1.5.0",
+    "yields/serialize": "0.2.0",
+    "component/t": "1.0.0"
+  },
+  "locals": [ "regexps", "user", "request", "title", "render", "form-view" ],
+  "scripts": [ "forgot.js", "forgot-view.js", "reset-view.js" ],
+  "styles": [ ],
+  "templates": [ "forgot-form.jade" , "reset-form.jade" ],
+  "main": "forgot.js"
+}

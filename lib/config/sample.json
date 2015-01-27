@@ -1,10 +1,15 @@
 {
-  "port": 3000,
-  "mongoUrl": "mongodb://localhost/nodejs-starter",
+  "privatePort": 3000,
+  "publicPort": 3000,
+  "mongoUrl": "mongodb://localhost/democracyos-platform",
+  "host": "localhost",
+  "protocol": "http",
   "client": [
-    "organization name"
+    "organization name",
+    "redirectUrl"
   ],
-  "organization name": "node-js",
+  "organization name": "DemocracyOS Platform",
+  "locale": "en",
   "auth": {
     "facebook": {
       "clientID": "FBClientId",
@@ -16,5 +21,11 @@
       "consumerSecret": "TwitterConsumerSecret",
       "callback": "http://127.0.0.1:3000/auth/twitter/callback"
     }
-  }
+  },
+  "notifications": {
+    "url": "http://localhost:9001/api/events",
+    "token": 1234
+  },
+  "secret": "Just a sample secret string",
+  "redirectUrl": "http://localhost:3000"
 }

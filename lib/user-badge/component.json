@@ -1,0 +1,17 @@
+{
+  "name": "user-badge",
+  "description": "user badge component",
+  "dependencies": {
+    "component/dom": "1.0.6"
+  },
+  "locals": [
+    "user",
+    "view"
+  ],
+  "scripts": [
+    "view.js"
+  ],
+  "styles": [ "styles.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "view.js"
+}
