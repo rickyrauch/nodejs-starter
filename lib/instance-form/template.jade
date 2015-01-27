@@ -3,7 +3,7 @@
     .title-page
       h1=t('Create new instance')
 
-    form.form(action="/instances/new", method="post", role="form", novalidate, autovalidate, autosubmit)
+    form.form(action="/instances", method="post", role="form", novalidate, autovalidate, autosubmit)
       ul.form-errors
 
       .form-group
@@ -12,7 +12,7 @@
 
       .form-group
         label= t('Summary')
-        textarea.form-control(name='Summary', tabindex=2, placeholder=t('A brief description of the purpose of the instance'), validate='required')
+        textarea.form-control(name='summary', tabindex=2, placeholder=t('A brief description of the purpose of the instance'), validate='required')
 
       .form-group
         label= t('URL')
