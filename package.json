@@ -52,6 +52,10 @@
     "merge-util": "0.1.0",
     "node-path": "0.0.3",
     "crypto": "0.0.3",
-    "debug": "2.0.0"
+    "debug": "2.0.0",
+    "batch": "~0.5.2"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/njs-install --config && node ./bin/njs-config && node ./bin/njs-build"
   }
 }
