@@ -31,4 +31,4 @@ clean:
 	@rm -rf components node_modules public
 	@echo "Done.\n"
 
-.PHONY: run build clean
+.PHONY: run build node_modules components clean
