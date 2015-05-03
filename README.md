@@ -43,7 +43,7 @@ Run from your terminal:
 
 ## Contributors
 * [Cristian Douce](http://twitter.com/cristiandouce)
-* [Ricardo Rauch](http://twitter.com/gravityonmars)
+* [Ricardo Rauch](http://twitter.com/rickyrauch)
 * [Sacha Lifszyc](http://twitter.com/slifszyc)
 
 ## Common errors
